@@ -1,0 +1,131 @@
+body{
+    font-family: 'Open Sans';
+}
+
+/* .card{
+    margin-right: 5%;
+} */
+.card-body{
+    background-color: #31363F;
+    color: white;
+    border: 1px black;
+}
+
+.card-info-text{
+    color: white;
+}
+
+.custom-navbar {
+    height: 80px; /* Adjust this height as desired */
+    align-items: center; /* This will vertically align the navbar contents */
+  }
+  
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white; 
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem; 
+}
+
+.nav-link {
+  color: white !important;
+  font-family: 'Roboto'; 
+}
+.navbar-brand{
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #ccc !important; 
+}
+  
+.page-rows{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.custom_buttons {
+    background-color: white;
+    border: 1px solid white; 
+    border-radius: 1px;
+    color: black;
+    padding: 10px 30px; 
+    margin: 7% 0; 
+    font-family: 'Open Sans';
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom_buttons:hover {
+    background-color: black;
+    color: white;
+    border-color: white; 
+}
+
+
+.div-center-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.div-center-text h5{
+    line-height: 2;
+    font-family: 'Open Sans';
+    font-weight: 100;
+}
+
+p{
+    line-height: 2;
+    font-family: 'Open Sans';
+    font-weight: 100; 
+    margin-top: 10%;
+}
+
+
+h1{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.heading{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+input.form-control{
+    background-color: black;
+    color: white;
+    font-weight: 100;
+}
+
+input.form-control::placeholder {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: small;
+}
+
+.form-button{
+    background-color: white;
+    border: 1px solid white; 
+    border-radius: 1px;
+    color: black;
+    padding: 10px 30px; 
+    font-family: 'Open Sans';
+}
+
+h4{
+    font-family: 'Open Sans';
+}
+
+
+
+
+
+
+
+
+
