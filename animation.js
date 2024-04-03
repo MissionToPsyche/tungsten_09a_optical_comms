@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           window.location.href = newLocation;
-        }, 1000); 
+        }, 500); 
       } else {
         // window.scrollTo(0, 0);
       }
