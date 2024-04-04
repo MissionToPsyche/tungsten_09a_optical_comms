@@ -157,3 +157,45 @@ input.form-control::placeholder {
   padding: 10px 30px;
   font-family: "Open Sans";
 }
+
+.project-card{
+  position: relative;
+}
+
+.project-card:hover .project-card-text{
+  visibility: visible;
+}
+
+.project-card :hover img{
+  opacity: 0.55;
+}
+
+.project-card-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+  visibility: hidden;
+  z-index: 1;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.project-row{
+  color: white;
+  font-family: 'Open Sans';
+  padding: 1% 3%;
+}
+
+.project-heading{
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.project-left-column-text{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
