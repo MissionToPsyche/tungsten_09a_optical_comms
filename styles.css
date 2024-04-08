@@ -116,6 +116,10 @@ body {
   font-weight: 100;
 }
 
+.div-center-text h1 {
+  font-weight: 500;
+}
+
 p {
   line-height: 2;
   font-family: "Open Sans";
@@ -135,6 +139,7 @@ h4 {
 .heading {
   margin-top: 4%;
   margin-bottom: 4%;
+  font-weight: 600;
 }
 
 input.form-control {
@@ -191,7 +196,7 @@ input.form-control::placeholder {
 }
 
 .project-heading{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 4em;
 }
 
