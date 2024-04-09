@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans";
+  padding-top: 4%;
 }
 
 /* Global fade animation styles */
@@ -57,10 +58,16 @@ body {
   padding-bottom: 0.5rem;
 } */
 
+.custom-navbar .navbar-toggler-icon {
+  color: white;
+}
+
+
 .nav-link {
   color: white !important;
   font-family: "Montserrat";
-  margin-right: 15px;
+  margin-right: 7px;
+  margin-left: 8px;
   font-weight: 700;
 }
 .navbar-brand {
@@ -78,8 +85,8 @@ body {
 }
 
 .page-rows {
-  padding-top: 6%;
-  padding-bottom: 6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .custom_buttons {
@@ -133,7 +140,7 @@ h1 {
 }
 
 h4 {
-  font-family: "Montserrat";
+  font-family: "Open Sans";
 }
 
 .heading {
