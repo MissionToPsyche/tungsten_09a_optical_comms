@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Psyche 09a Optical Comm</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato:wght@100;300;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@100;300;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;700&display=swap&family=Handlee"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body
+    style="
+      background-color: black;
+      background-image: url('static/wixstar.webp');
+    "
+  >
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg custom-navbar"
+      style="background-color: #343434"
+    >
+      <!-- <div class="container-fluid"> -->
+      <a class="navbar-brand" style="margin-left: 1%" href="index.html"
+        ><img
+          src="static/Psyche.png"
+          alt=""
+          width="55"
+          height="55"
+          style="margin-right: 5px"
+        />
+        Tungsten Class Capstone - 09A
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border: 0px"
+      >
+        <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+        style="background-color: #343434"
+      >
+        <ul class="navbar-nav ms-auto">
+          <!-- Updated class for Bootstrap 5 -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Project</a>
+          </li>
+        </ul>
+      </div>
+      <!-- </div> -->
+    </nav>
+
+    <div
+      class="container pageContainer"
+      style="margin-top: 3%; margin-bottom: 2%"
+    >
+      <div class="row page-rows div-center-text">
+        <h4 style="font-size: 3em; font-family: 'Montserrat';">
+          Introducing the Team of Psyche’s Tungsten Class
+        </h4>
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+          <p>
+            The NASA Psyche mission, led by Arizona State University (ASU), includes a Student Collaborations program, with opportunities and
+            senior design/capstone project experiences available to undergraduate students that want to get involved with its historic exploration. Every year, the Psyche mission uses a name of the elements that may be found on the Psyche asteroid to label each class of students that work with the Psyche team. This year’s class is named ‘Tungsten’ for the undergrad teams of the 2023-2024 academic year. One of the projects offered was improving on an infrared (IR) system to detect the onboard deep space optical communications (DSOC) from the Psyche spacecraft, as well as providing outreach to give details and guidance on how you can build your own Psyche IR detection system at home.
+          </p>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <p>
+                As public outreach is one of NASA’s major goals for getting the public invested and excited in space science, the Tungsten DSOC Team will explain their process on building their IR system on this site. Before that though, we would like to introduce ourselves and give some background to who we are.
+            </p>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <h4 style="font-family: Montserrat; font-size: 1.75em; color: #8576FF; color: #8576FF;">Andi Swirbul</h4>
+            <p>
+                As public outreach is one of NASA’s major goals for getting the public invested and excited in
+                space science, the Tungsten DSOC Team will explain their process on building their IR system
+                on this site. Before that though, we would like to introduce ourselves and give some
+                background to who we are.
+            </p>
+            <div class="card text-white mb-3" style="border: 1px solid black; display: flex;">
+                <div class="row g-0" style="background-color: black; align-items: center;">
+                  <div class="col-md-3">
+                    <img src="static/andi.jpg" class="img-fluid rounded-circle" width="100%" height="100%">
+                  </div>
+                  <div class="col-md-9" >
+                    <div class="card-body" style="background-color: black;;">
+                      <p class="card-text" style="font-family: Lato; font-size: 1.1em;"><em>"My role within the DSOC capstone team is to work as the optics/observation
+                        lead. This means that I deal with all things telescope, and I care about how all of
+                        our pieces connect together to help us see Psyche. My duties include planning
+                        observation nights, testing optical systems, and hopefully in the near future,
+                        performing some data analysis!"</em></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <h4 style="font-family: Montserrat; font-size: 1.75em; color: #8576FF;">Andrew Munroe</h4>
+            <p>
+                Andrew is majoring in Astrophysics, as well as minoring in data science. He enjoys making new
+                discoveries, “even if they’re only new to me” he says. Andrew likes technology and using it to
+                make discoveries about the universe that we wouldn’t even notice otherwise. Along with that,
+                he loves playing music and talking to his friends.
+            </p>
+            <div class="card text-white mb-3" style="border: 1px solid black; display: flex;">
+                <div class="row g-0" style="background-color: black; align-items: center;">
+                  <div class="col-md-3">
+                    <img src="static/andrew.jpg" class="img-fluid rounded-circle" width="100%" height="100%">
+                  </div>
+                  <div class="col-md-9" >
+                    <div class="card-body" style="background-color: black;;">
+                      <p class="card-text" style="font-family: Lato; font-size: 1.1em;"><em>"As the System Engineer, I make sure all the small parts of our system can work together
+                        and complete their task. I also write a lot of code that we use to operate our system
+                        from the computer. I am also in charge of making sure that everyone can easily use our
+                        program at home!"</em></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <h4 style="font-family: Montserrat; font-size: 1.75em; color: #8576FF;">Madison (Madi) Hedges</h4>
+            <p>
+                Madi is in her last year of completing her Electrical Systems and Space Exploration (Systems
+                Design) degrees. She enjoys collecting vinyl records, painting, doing jigsaw puzzles, playing
+                video games, and spending time with her dog, Daisy. She likes applying what she’s learned to
+                projects at home, such as funny door alarms and long-distance friend lamps.
+            </p>
+            <div class="card text-white mb-3" style="border: 1px solid black; display: flex;">
+                <div class="row g-0" style="background-color: black; align-items: center;">
+                  <div class="col-md-3">
+                    <img src="static/madison.jpg" class="img-fluid rounded-circle" width="100%" height="100%">
+                  </div>
+                  <div class="col-md-9" >
+                    <div class="card-body" style="background-color: black;;">
+                      <p class="card-text" style="font-family: Lato; font-size: 1.1em;"><em>"I help the team stay organized and make sure we all talk to each other about how
+                        we’re doing. In addition, I help my teammate, Zach, with building one of the
+                        electrical subsystems that helps the detector talk to the computer."</em></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <h4 style="font-family: Montserrat; font-size: 1.75em; color: #8576FF;">Nina McGarry</h4>
+            <p>
+                Nina is currently finishing her degree in Astrophysics and loves to study mysterious objects in
+                space, such as black holes and other compact objects. In addition, she likes learning about
+                relativity (all about gravity and spacetime). Her favorite color is cyan and she enjoys drawing
+                cartoons and playing video games in her free time. She also likes her job as a presenter for
+                ASU's own 3D Planetarium in the Marston Theatre and educating the public about the vast
+                wonders of the universe.
+            </p>
+            <div class="card text-white mb-3" style="border: 1px solid black; display: flex;">
+                <div class="row g-0" style="background-color: black; align-items: center;">
+                  <div class="col-md-3">
+                    <img src="static/nina.jpg" class="img-fluid rounded-circle" width="100%" height="100%">
+                  </div>
+                  <div class="col-md-9" >
+                    <div class="card-body" style="background-color: black;;">
+                      <p class="card-text" style="font-family: Lato; font-size: 1.1em;"><em>"I'm in charge of both scheduling and choosing stars to target for our observation
+                        nights."</em></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <h4 style="font-family: Montserrat; font-size: 1.75em; color: #8576FF;">Peyton Idleman</h4>
+            <p>
+                Peyton is completing her degree in Astrophysics. Some of her favorite things include the color
+                orange, mac n cheese, and the subject she enjoys the most is math. Peyton plays the piano and
+                is learning the electric guitar. She plays intramural volleyball, loves to read and play video
+                games in her spare time. Additionally, she has a dog named Argo, named after
+                Jason and the Argonauts!
+            </p>
+            <div class="card text-white mb-3" style="border: 1px solid black; display: flex;">
+                <div class="row g-0" style="background-color: black; align-items: center;">
+                  <div class="col-md-3">
+                    <img src="static/peyton.jpg" class="img-fluid rounded-circle" width="100%" height="100%">
+                  </div>
+                  <div class="col-md-9" >
+                    <div class="card-body" style="background-color: black;;">
+                      <p class="card-text" style="font-family: Lato; font-size: 1.1em;"><em>"I work as a website developer and software engineer, where I help to assess the
+                        project's viability for amateur astronomers, focusing on aspects like affordability,
+                        replicability, and accessibility!"</em></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left;">
+            <h4 style="font-family: Montserrat; font-size: 1.75em; color: #8576FF;">Zachary Butler</h4>
+            <p>
+                Zachary is completing his degrees in Exploration Systems Design and Electrical Engineering.
+                His favorite color is purple, his favorite place is Washington, and he enjoys playing guitar and
+                video games. He enjoys playing mainly MMOs and RPGs!
+            </p>
+            <div class="card text-white mb-3" style="border: 1px solid black; display: flex;">
+                <div class="row g-0" style="background-color: black; align-items: center;">
+                  <div class="col-md-3">
+                    <img src="static/zachary.jpg" class="img-fluid rounded-circle" width="100%" height="100%">
+                  </div>
+                  <div class="col-md-9" >
+                    <div class="card-body" style="background-color: black;;">
+                      <p class="card-text" style="font-family: Lato; font-size: 1.1em;"><em>"I am in charge of all of the electrical parts of the project. This means I plan the circuit and find
+                        the parts for the detector that we need. Specifically, I am making a system that looks for
+                        incoming infrared light and converts it into changes that the computer can understand!"</em></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+            <p>
+                We are all very excited to be working on this project and we hope you have enjoyed a look into
+                the team. We will continue posting updates on how you can build your own IR detection
+                system to observe the Psyche spacecraft at home!
+            </p>
+          </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="animation.js"></script>
+
+    <footer
+      class="text-center"
+      style="color: white; padding: 2%; font-family: 'Open Sans'"
+    >
+      ©2023 by Psyche 09A Optical Comms.
+    </footer>
+  </body>
+</html>
