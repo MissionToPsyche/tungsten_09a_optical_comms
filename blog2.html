@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Psyche 09a Optical Comm</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato:wght@100;300;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@100;300;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;700&display=swap&family=Handlee"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body
+    style="
+      background-color: black;
+      background-image: url('static/wixstar.webp');
+    "
+  >
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg custom-navbar"
+      style="background-color: #343434"
+    >
+      <!-- <div class="container-fluid"> -->
+      <a class="navbar-brand" style="margin-left: 1%" href="index.html"
+        ><img
+          src="static/Psyche.png"
+          alt=""
+          width="55"
+          height="55"
+          style="margin-right: 5px"
+        />
+        Tungsten Class Capstone - 09A
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border: 0px"
+      >
+        <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+        style="background-color: #343434"
+      >
+        <ul class="navbar-nav ms-auto">
+          <!-- Updated class for Bootstrap 5 -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Project</a>
+          </li>
+        </ul>
+      </div>
+      <!-- </div> -->
+    </nav>
+
+    <div
+      class="container pageContainer"
+      style="margin-top: 3%; margin-bottom: 2%"
+    >
+      <div class="row page-rows div-center-text">
+        <h4 style="font-size: 3em; font-family: 'Montserrat'; color: #dd8644;">
+          ADC & Microcontrollers
+        </h4>
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+          <p>
+            Hello! In this article I’ll be talking about the ADC and
+            microcontroller subsystem in the Psyche DSOC Detection Project. As
+            an overview, ADC stands for ‘Analog to Digital Converter.’
+          </p>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+          <h4
+            style="
+              font-family: Montserrat;
+              font-size: 1.75em;
+              color: #8576FF;
+            "
+          >
+            Signals
+          </h4>
+          <p>
+            Electronics– and specifically sensors– measure physical changes and
+            ‘convert’ them into electrical signals. The microcontroller picks up
+            those signals and translates them into a format we can read. We can
+            code microcontrollers to control the sensors to work the way we want
+            them to. Some sensors send out electrical signals as a DC (direct
+            current) signal or an AC (alternate current) signal. DC basically
+            means the signal is either 1 or 0, on or off. On the other hand, AC
+            signals can be a range (1.34, 250, etc.).
+          </p>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+          <h4
+            style="
+              font-family: Montserrat;
+              font-size: 1.75em;
+              color: #8576FF;
+            "
+          >
+            ADC & Bits
+          </h4>
+          <p>
+            So for this project, the sensor used is a photodiode, which sends
+            out analog signals. However, the signals it sends are super small,
+            so we must use an amplifier to make the signal more readable for us.
+            But, the microcontrollers used (more on those below) need to be able
+            to read large packets of extremely small data quickly in order to
+            make using the system viable. Basically, you wouldn’t want to wait 5
+            minutes for the sensor to take a signal, send it to the
+            microcontroller, and be converted for one measurement. We need many
+            measurements for the super small signals from the photodiode in a
+            feasible time frame. That means we need an ADC to help take the
+            signals and send them highly digitized to the microcontroller. The
+            microcontrollers (more below) usually come with an 8-bit ADC, but
+            the one used for the project is 16-bit, meaning the data and
+            resolution is improved.
+          </p>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+          <h4
+            style="
+              font-family: Montserrat;
+              font-size: 1.75em;
+              color: #8576FF;
+            "
+          >
+            Microcontrollers
+          </h4>
+          <p>
+            Microcontrollers are somewhat like mini-computers meant for certain
+            computing tasks. For instance, some microcontrollers might take
+            measurements, do mathematical calculations, or drive displays for
+            screens. For this project, we are using some easy-to-acquire and
+            broad-ranging microcontrollers from Arduino and Raspberry Pi.
+            Displayed below are the microcontrollers used and tested by the
+            team, meaning you could use any one of these to build our project
+            for yourself:
+          </p>
+        </div>
+
+        <div class="col-lg-8" style="text-align: center">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <img
+                    src="static/Arduino Uno Rev 3.jpg"
+                    class="img-fluid rounded-start"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="card-footer">Arduino Uno Rev 3</div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <img
+                    src="static/Arduino Nano 33.jpg"
+                    class="img-fluid rounded-start"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="card-footer">Arduino Nano 33</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <img
+                    src="static/Raspberry Pi Zero.jpg"
+                    class="img-fluid rounded-start"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="card-footer">Raspberry Pi Zero</div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <img
+                    src="static/Raspberry Pi 4.jpg"
+                    class="img-fluid rounded-start"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="card-footer">Raspberry Pi 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+          <h4
+            style="
+              font-family: Montserrat;
+              font-size: 1.75em;
+              color: #8576FF;
+            "
+          >
+            Putting It Together
+          </h4>
+          <p>
+            So how does the ADC and microcontroller of your choice tie into the
+            overall project? Below is a copy of the team’s block diagram, where
+            the ADC is found towards the bottom.
+          </p>
+          <img src="static/ADCBlogIM5.png" width="100%" height="100%" />
+
+          <p style="margin-top: 2%">
+            Since the whole system is converting between analog and digital
+            signals, that will need to be handled by the microcontroller to
+            convert it into an output that we can read. The photodiode will pick
+            up signals that the Psyche DSOC laser will emit, in the IR
+            (infrared), and will transmit the data as electric signals that are
+            very small. Since we need a bunch of these tiny measurement signals
+            rather quickly, the ADC is able to digitize the signals to send more
+            data to the microcontroller faster than it could do on its own.
+          </p>
+        </div>
+
+        <div class="col-lg-8 blog-paragraph" style="text-align: left">
+            <h4
+              style="
+                font-family: Montserrat;
+                font-size: 1.75em;
+                color: #8576FF;
+              "
+            >
+              Conclusion
+            </h4>
+            <p>
+                An ADC with one of these microcontrollers makes it feasible for us to look for and see the objects in the night sky that we might not be able to see with our eyes (or even a regular telescope). By building this subsystem (instructions and code found here), you will be able to do this project yourself! We would love to hear what you are able to see and if you are able to detect the Psyche DSOC laser on your own!
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="animation.js"></script>
+
+    <footer
+      class="text-center"
+      style="color: white; padding: 2%; font-family: 'Open Sans'"
+    >
+      ©2023 by Psyche 09A Optical Comms.
+    </footer>
+  </body>
+</html>
