@@ -215,3 +215,13 @@ input.form-control::placeholder {
 .blog-paragraph{
   padding-top: 3%;
 }
+
+.card{
+  transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1), transform 0.35s cubic-bezier(0.29, 0.97, 0, 1.85), -webkit-transform .35s cubic-bezier(0.29, 0.97, 0, 1.85), -o-transform .35s cubic-bezier(0.29, 0.97, 0, 1.85);
+}
+
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transform: scale(1.03);
+}
